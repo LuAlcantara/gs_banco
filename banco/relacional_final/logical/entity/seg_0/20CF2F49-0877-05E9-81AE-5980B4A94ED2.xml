@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20CF2F49-0877-05E9-81AE-5980B4A94ED2" name="GS SENSOR">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>E60B4DD2-8A58-1A32-D17B-5B969982C5C1</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID SENSOR" id="BCF9FD60-9DA9-5A01-7329-52E484C2EFA7">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>900262CA-6C6A-F5FB-05A7-4E4035D87C51</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO SENSOR" id="4AC72B17-9F43-F64A-C000-04E323DC3240">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>C0087D05-7BD6-4A76-3C17-BC8983AE2319</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID ABRIGO" id="992432F5-37BD-7A02-C4D2-6991CCD21477">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>4F6152F5-7968-2241-11FB-C74BA54D90E1</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0D9713A9-290F-E1A9-F661-DD17079A6E59</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1404F782-E10D-93D3-159F-72625C18E033" name="GS SENSOR PK">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>4DF046A6-ECC9-46BA-43D0-6355138C35A2</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BCF9FD60-9DA9-5A01-7329-52E484C2EFA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

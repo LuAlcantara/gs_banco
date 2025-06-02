@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E374A196-6603-EB74-FD28-84E74E08FE4C" name="GS LEITURA SENSOR">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>8FA274DC-1142-ED6E-073A-095CA6517C28</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID LEITURA" id="E23239D0-1E93-7AA9-8672-63F871EE84CD">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>679C51CE-29D2-C02D-0466-82A499830381</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID SENSOR" id="DFD3E1F4-CED4-394B-E25B-BE1804C73DD6">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>E11FDF96-C34C-52D0-83A8-1C79FD63EEBB</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BCF9FD60-9DA9-5A01-7329-52E484C2EFA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALOR" id="47FB0507-18E4-948C-E6E9-AFE62C0FAC65">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>6350107E-3163-CBBF-E5F0-33B44E31A5F7</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA LEITURA" id="714EE271-147B-0B58-800D-B90A6D4BB49F">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>DE8AB923-5315-CE2C-B32D-E4048B314220</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D94498B-B2E2-7A87-157F-61E1BC9791CC" name="GS LEITURA SENSOR PK">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>362B5119-632D-624D-D99C-1BB2639453EF</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E23239D0-1E93-7AA9-8672-63F871EE84CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

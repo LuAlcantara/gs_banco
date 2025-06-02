@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="criacao_tabelas_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="04068541-ECC2-5713-2FFF-9F96CB7B3A2F">
+<createdBy>lucas</createdBy>
+<createdTime>2025-05-29 21:35:31 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>criacao_tabelas_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_11" id="0720516C-CE82-91BA-4A51-806964560A76">
+<createdBy>lucas</createdBy>
+<createdTime>2025-05-29 21:35:31 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>11</dataTypeSize>
+<fileName>criacao_tabelas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="1DF30C07-8A85-03DF-925B-4A7C31C772B2">
+<createdBy>lucas</createdBy>
+<createdTime>2025-05-29 21:35:31 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>criacao_tabelas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="4B8668EB-580B-93FA-EA31-9B715804EA94">
+<createdBy>lucas</createdBy>
+<createdTime>2025-05-29 21:35:31 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>criacao_tabelas_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="4BF32959-5A07-290F-B80A-CB963EDF42F7">
+<createdBy>lucas</createdBy>
+<createdTime>2025-05-29 21:35:31 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>1</dataTypeSize>
+<fileName>criacao_tabelas_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="7B723A0C-64D2-33E4-077B-2E87218063B1">
+<createdBy>lucas</createdBy>
+<createdTime>2025-05-29 21:35:31 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>criacao_tabelas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="A069FD0A-2FDA-03AA-DC8F-827211DA87EF">
+<createdBy>lucas</createdBy>
+<createdTime>2025-05-29 21:35:31 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200</dataTypeSize>
+<fileName>criacao_tabelas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="C0B311BC-518A-9649-B2CD-6F33A7BDE789">
+<createdBy>lucas</createdBy>
+<createdTime>2025-05-29 21:35:31 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>criacao_tabelas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="DED56566-C41A-B25E-F909-A6355FC852FA">
+<createdBy>lucas</createdBy>
+<createdTime>2025-05-29 21:35:31 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>criacao_tabelas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

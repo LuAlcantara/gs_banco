@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45C4EFBE-E6DB-4247-7F70-8CAF569D72FA" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_ABRIGO">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>GS_ABRIGO</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>D730D428-B951-DDB0-D055-600987B13D55</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="FFE6CC4F-8132-D2B8-9DB9-1BF10CBD6E81">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ABRIGO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>D81F1133-D5F6-F7A6-7D8F-085A607E8601</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NOME" id="B5603896-8140-4D1E-EBA6-3FAB6E1679AA">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ABRIGO</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>282B4FC1-DE7A-3CFF-E2BC-047F3D2E2016</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO" id="6D94EF16-F455-2491-BF1C-C3B33CE91BE7">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ABRIGO</sourceObjSchema>
+<sourceObjName>ENDERECO</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>605467CB-98E8-5093-242F-053D725649E4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGIAO" id="5B94E993-BC4E-5C96-5F87-B91E89A894EC">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ABRIGO</sourceObjSchema>
+<sourceObjName>REGIAO</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>6FD1B18A-B70F-969B-DA75-B36654AB4858</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPERATURA" id="23AAE5BB-CEC2-E239-5DC5-E447C70B4F52">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ABRIGO</sourceObjSchema>
+<sourceObjName>TEMPERATURA</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>42B4E8C6-ED4D-02B0-E166-34E089DE922B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECURSOS" id="9D858B73-BDB0-7890-E102-B52A7BEF6AE6">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ABRIGO</sourceObjSchema>
+<sourceObjName>RECURSOS</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>1403E098-AB19-2B9C-8B42-ECCC91CD1C92</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPACIDADE" id="24FAB612-D685-277C-07EF-F2DC617F2B3C">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ABRIGO</sourceObjSchema>
+<sourceObjName>CAPACIDADE</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>4551935F-6171-8D3C-36BD-A7A58BC6C970</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OCUPACAO" id="20BAFC56-1A6F-ECCA-A658-02AAE8193031">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ABRIGO</sourceObjSchema>
+<sourceObjName>OCUPACAO</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>51A78F58-A34B-6707-6E34-694FAB61EF28</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATIVO" id="EF84B5CA-95DE-E0F5-6640-165B87F29449">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ABRIGO</sourceObjSchema>
+<sourceObjName>ATIVO</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>BED54B3C-AC61-6D96-8965-E50C3F96B4D0</importedID>
+<constraintName>SYS_C005177064</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESPONSAVEL" id="126C695F-8A87-BB8B-CC01-47DF93F4714B">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ABRIGO</sourceObjSchema>
+<sourceObjName>RESPONSAVEL</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>37153EDD-8808-FCE1-3116-03E12F4EA30A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONE" id="07B59E02-AFC8-AA17-AB95-ED5C30321099">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ABRIGO</sourceObjSchema>
+<sourceObjName>TELEFONE</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>D773531A-E995-5C1B-41FE-306720BA3958</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6F81E6B-8D6E-B453-E99F-4938E546E6AA" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_ABRIGO_PK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>SYS_C005177065</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>DD7B6110-F0F3-68A4-F7B0-EA7D6E8BAB51</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFE6CC4F-8132-D2B8-9DB9-1BF10CBD6E81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

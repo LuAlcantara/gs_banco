@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EFD5FC83-C8A8-2B77-92A5-A17DBA1E9F0F" containerWithKeyObject="E60B4DD2-8A58-1A32-D17B-5B969982C5C1" localFKIndex="184AAAD3-8708-E98A-29C4-A2EB4FE792F2" name="GS_SENSOR_GS_ABRIGO_FK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>FK_SENSOR_ABRIGO</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>3A739498-2808-4A87-C3E3-AD4077D3D82F</importedID>
+<referredTableLongName>RM95111.GS_ABRIGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>45C4EFBE-E6DB-4247-7F70-8CAF569D72FA</referredTableID>
+<keyObject>C6F81E6B-8D6E-B453-E99F-4938E546E6AA</keyObject>
+<referredKeyID>C6F81E6B-8D6E-B453-E99F-4938E546E6AA</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

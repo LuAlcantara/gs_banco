@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FA274DC-1142-ED6E-073A-095CA6517C28" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_LEITURA_SENSOR">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>GS_LEITURA_SENSOR</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>6A428784-5C16-C6B9-A07B-064B0A98B9EA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LEITURA" id="679C51CE-29D2-C02D-0466-82A499830381">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_LEITURA_SENSOR</sourceObjSchema>
+<sourceObjName>ID_LEITURA</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>4E0C4F4E-0EF3-FD39-A9F2-48BA3A905974</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="GS_SENSOR_ID_SENSOR" id="12D70928-7B4D-3AB2-D2AD-44944C237460">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_LEITURA_SENSOR</sourceObjSchema>
+<sourceObjName>ID_SENSOR</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>E915D41F-600D-9DB4-85CC-B548BFAF3FBA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F58770E-6BDF-A978-C361-6628D65D3066" referredColumn="900262CA-6C6A-F5FB-05A7-4E4035D87C51"/>
+</associations>
+</Column>
+<Column name="VALOR" id="6350107E-3163-CBBF-E5F0-33B44E31A5F7">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_LEITURA_SENSOR</sourceObjSchema>
+<sourceObjName>VALOR</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>0E91A0A7-113B-6075-45B8-BA2973930B8B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_LEITURA" id="DE8AB923-5315-CE2C-B32D-E4048B314220">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_LEITURA_SENSOR</sourceObjSchema>
+<sourceObjName>DATA_LEITURA</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>962FD6A4-F055-E925-A65F-8182E066CFF3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="362B5119-632D-624D-D99C-1BB2639453EF" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_LEITURA_SENSOR_PK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>SYS_C005177077</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>00F62110-C75F-ADAF-68A2-02243EE84484</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="679C51CE-29D2-C02D-0466-82A499830381"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA384AA0-1A23-4C30-AFEA-B693CDA4071B" name="GS_LEITURA_SENSOR_GS_SENSOR_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12D70928-7B4D-3AB2-D2AD-44944C237460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

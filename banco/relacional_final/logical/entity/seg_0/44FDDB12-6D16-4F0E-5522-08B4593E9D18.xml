@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44FDDB12-6D16-4F0E-5522-08B4593E9D18" name="GS ABRIGO">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>45C4EFBE-E6DB-4247-7F70-8CAF569D72FA</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0D9713A9-290F-E1A9-F661-DD17079A6E59">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>FFE6CC4F-8132-D2B8-9DB9-1BF10CBD6E81</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="71CA47C6-8AE8-437A-7C80-50C4889A5F7A">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>B5603896-8140-4D1E-EBA6-3FAB6E1679AA</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDERECO" id="AC834FF8-A5E0-4EF9-9767-95B50AFD8BB0">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>6D94EF16-F455-2491-BF1C-C3B33CE91BE7</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGIAO" id="9B93ED43-55E9-1457-46A7-C0621AF6F8BE">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>5B94E993-BC4E-5C96-5F87-B91E89A894EC</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEMPERATURA" id="9B134049-9670-BAE9-A552-A51DC60B87A6">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>23AAE5BB-CEC2-E239-5DC5-E447C70B4F52</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RECURSOS" id="5A2E4802-4AA4-D6E6-947A-3D60B9B9C6DD">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>9D858B73-BDB0-7890-E102-B52A7BEF6AE6</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAPACIDADE" id="9FDAB412-06AF-5C74-0389-69CB1F99FAC3">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>24FAB612-D685-277C-07EF-F2DC617F2B3C</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OCUPACAO" id="6BC0CF63-7A8A-F18F-7211-B83BA3F0E247">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>20BAFC56-1A6F-ECCA-A658-02AAE8193031</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATIVO" id="2807B45B-D99E-A711-1C0E-84B357EF7C0D">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>EF84B5CA-95DE-E0F5-6640-165B87F29449</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<constraintName>SYS_C005177064</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESPONSAVEL" id="26031158-3E97-A671-9ABC-E1C33639A6D8">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>126C695F-8A87-BB8B-CC01-47DF93F4714B</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="56531F0C-D370-54EA-D3AD-1147AE923E37">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>07B59E02-AFC8-AA17-AB95-ED5C30321099</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D8F0907-108E-B9FF-49B2-E6967E934DF9" name="GS ABRIGO PK">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>C6F81E6B-8D6E-B453-E99F-4938E546E6AA</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D9713A9-290F-E1A9-F661-DD17079A6E59</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

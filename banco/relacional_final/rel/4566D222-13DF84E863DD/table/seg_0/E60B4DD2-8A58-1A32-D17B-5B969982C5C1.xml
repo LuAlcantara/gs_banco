@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E60B4DD2-8A58-1A32-D17B-5B969982C5C1" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_SENSOR">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>GS_SENSOR</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>A372054D-D5F7-B2E3-89C0-A3D3CC9BA998</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SENSOR" id="900262CA-6C6A-F5FB-05A7-4E4035D87C51">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_SENSOR</sourceObjSchema>
+<sourceObjName>ID_SENSOR</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>E423E06B-D524-7523-D29F-56610F9B91AF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="TIPO_SENSOR" id="C0087D05-7BD6-4A76-3C17-BC8983AE2319">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_SENSOR</sourceObjSchema>
+<sourceObjName>TIPO_SENSOR</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>F0544EE6-611F-D9F0-B58B-DF51A66CB73A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GS_ABRIGO_ID" id="FDB9F409-C900-971B-64AA-6C36C05A9CFD">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_SENSOR</sourceObjSchema>
+<sourceObjName>ID_ABRIGO</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>3EFB53D0-4A28-A5D3-3F40-20995DD98D04</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFD5FC83-C8A8-2B77-92A5-A17DBA1E9F0F" referredColumn="FFE6CC4F-8132-D2B8-9DB9-1BF10CBD6E81"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DF046A6-ECC9-46BA-43D0-6355138C35A2" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_SENSOR_PK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>SYS_C005177074</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>39A2F106-7BBE-F1BC-A298-26FCE81EF25B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="900262CA-6C6A-F5FB-05A7-4E4035D87C51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="184AAAD3-8708-E98A-29C4-A2EB4FE792F2" name="GS_SENSOR_GS_ABRIGO_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDB9F409-C900-971B-64AA-6C36C05A9CFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

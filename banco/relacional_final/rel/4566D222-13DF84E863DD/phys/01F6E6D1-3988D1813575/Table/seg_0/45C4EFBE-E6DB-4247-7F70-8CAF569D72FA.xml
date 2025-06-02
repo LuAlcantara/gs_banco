@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="GS_ABRIGO" directorySegmentName="seg_0" id="45C4EFBE-E6DB-4247-7F70-8CAF569D72FA">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<schemaObject>E32ABB93-9EC8-456C-4722-453D0D9AF438</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TELEFONE" id="07B59E02-AFC8-AA17-AB95-ED5C30321099">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESPONSAVEL" id="126C695F-8A87-BB8B-CC01-47DF93F4714B">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OCUPACAO" id="20BAFC56-1A6F-ECCA-A658-02AAE8193031">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEMPERATURA" id="23AAE5BB-CEC2-E239-5DC5-E447C70B4F52">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAPACIDADE" id="24FAB612-D685-277C-07EF-F2DC617F2B3C">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGIAO" id="5B94E993-BC4E-5C96-5F87-B91E89A894EC">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENDERECO" id="6D94EF16-F455-2491-BF1C-C3B33CE91BE7">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RECURSOS" id="9D858B73-BDB0-7890-E102-B52A7BEF6AE6">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="B5603896-8140-4D1E-EBA6-3FAB6E1679AA">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATIVO" id="EF84B5CA-95DE-E0F5-6640-165B87F29449">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="FFE6CC4F-8132-D2B8-9DB9-1BF10CBD6E81">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GS_ABRIGO_PK" id="C6F81E6B-8D6E-B453-E99F-4938E546E6AA">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<schemaObject>E32ABB93-9EC8-456C-4722-453D0D9AF438</schemaObject>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

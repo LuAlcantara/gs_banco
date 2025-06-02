@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SENSOR_ABRIGO" directorySegmentName="seg_0" id="4F6152F5-7968-2241-11FB-C74BA54D90E1">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>EFD5FC83-C8A8-2B77-92A5-A17DBA1E9F0F</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<sourcePk>8D8F0907-108E-B9FF-49B2-E6967E934DF9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>44FDDB12-6D16-4F0E-5522-08B4593E9D18</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20CF2F49-0877-05E9-81AE-5980B4A94ED2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

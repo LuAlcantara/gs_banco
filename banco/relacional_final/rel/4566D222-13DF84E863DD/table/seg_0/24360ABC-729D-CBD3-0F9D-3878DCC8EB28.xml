@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24360ABC-729D-CBD3-0F9D-3878DCC8EB28" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_USUARIO">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>GS_USUARIO</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>F6E6CDF8-A2C0-201F-CB79-B4CC6940C399</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="1E5EB8C3-97C4-8CEE-D12C-3DE14A90C0F7">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_USUARIO</sourceObjSchema>
+<sourceObjName>ID_USUARIO</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>1CDCF7AF-A0B8-F91D-F218-B899BBD4F7A0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NOME" id="6B9C2D57-E873-D924-03B4-B83703EF951C">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_USUARIO</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>3F0E3D31-4C55-5D52-98C7-573A10A6F0D5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="C6E5E3FA-79E6-A302-4253-29165CD586BC">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_USUARIO</sourceObjSchema>
+<sourceObjName>CPF</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>0189A6AC-AE38-67DF-1D3A-07E9392FB8E4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="149403C1-856D-EE93-EA19-CA4C2099180C">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_USUARIO</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>3FD1F5E8-4DC5-21A7-91FD-7880D7FDC26D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENHA" id="2296C852-F769-5733-1CF2-925EA775A4C7">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_USUARIO</sourceObjSchema>
+<sourceObjName>SENHA</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>88658C4B-FE5A-290D-C0F1-08072C0B7411</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_USUARIO" id="A8EBE233-9301-C8E8-978B-04700915B212">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_USUARIO</sourceObjSchema>
+<sourceObjName>TIPO_USUARIO</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>20EE96FC-7097-9625-01F6-B3E0502A83CE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2E8FC19-F934-2D1F-67DB-639798306CF2" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_USUARIO_PK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>SYS_C005177067</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>EA81545E-B7C4-64EF-4991-0AA70AC0EBD6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E5EB8C3-97C4-8CEE-D12C-3DE14A90C0F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36026406-15A2-B512-6C32-C935A891E1BA" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_USUARIO_CPF_UN">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>SYS_C005177068</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>D5A62B90-9ACD-F7A7-02C2-3253DEDAB505</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6E5E3FA-79E6-A302-4253-29165CD586BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49FEA391-BD4B-FA44-384F-4FA4B467C968" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_USUARIO_EMAIL_UN">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>SYS_C005177069</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>21373F8E-9953-B97E-1481-74FB98371FD4</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="149403C1-856D-EE93-EA19-CA4C2099180C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

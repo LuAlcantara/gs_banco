@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_LEITURA_SENSOR" directorySegmentName="seg_0" id="E11FDF96-C34C-52D0-83A8-1C79FD63EEBB">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>3F58770E-6BDF-A978-C361-6628D65D3066</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<sourcePk>1404F782-E10D-93D3-159F-72625C18E033</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20CF2F49-0877-05E9-81AE-5980B4A94ED2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E374A196-6603-EB74-FD28-84E74E08FE4C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

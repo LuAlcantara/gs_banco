@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ALERTA_ABRIGO" directorySegmentName="seg_0" id="D6CC37DF-FF7D-65E2-B9A9-B3A3A6F00DE3">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:49:08 UTC</createdTime>
+<generatorID>80015D81-7FBD-7BDC-9BE3-954FBF1D9DB4</generatorID>
+<ownerDesignName>relacional_final</ownerDesignName>
+<engineerTo>
+<item key="4566D222-C0A2-1BF0-7B81-13DF84E863DD" value="true"/>
+</engineerTo>
+<sourcePk>8D8F0907-108E-B9FF-49B2-E6967E934DF9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>44FDDB12-6D16-4F0E-5522-08B4593E9D18</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B8B7D712-2242-99F6-37D9-6E2E981DB8B5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

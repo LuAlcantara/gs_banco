@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F8545FF-D421-2612-867C-7FDA4EFCC149" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_ALERTA">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>GS_ALERTA</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>DB26C165-4B45-B824-D713-3D2C1ED6DCB8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ALERTA" id="C56A9EF2-FF44-C677-1056-821F01FED0D4">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ALERTA</sourceObjSchema>
+<sourceObjName>ID_ALERTA</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>B6246277-929A-1C82-82F2-1833C9D4818B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="GS_ABRIGO_ID" id="A466AC1E-DF72-8ADB-D02A-4A535EA7DE8B">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ALERTA</sourceObjSchema>
+<sourceObjName>ID_ABRIGO</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>83CF13B0-C2ED-1A59-B4E0-707CC95079C8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80015D81-7FBD-7BDC-9BE3-954FBF1D9DB4" referredColumn="FFE6CC4F-8132-D2B8-9DB9-1BF10CBD6E81"/>
+</associations>
+</Column>
+<Column name="TIPO_ALERTA" id="923663B0-9F06-50AA-F754-4EED33A1B23D">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ALERTA</sourceObjSchema>
+<sourceObjName>TIPO_ALERTA</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>487078C3-932E-6034-CE6C-B9E1D911B2DE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAGEM" id="90C8E077-9380-52AD-EF55-8F823DC907BA">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ALERTA</sourceObjSchema>
+<sourceObjName>MENSAGEM</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>95CDDF65-F248-170D-54A8-174890D8FAB4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ALERTA" id="0BB02884-EB3C-E6C7-AF6E-472B4E725137">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>GS_ALERTA</sourceObjSchema>
+<sourceObjName>DATA_ALERTA</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>156BA307-6A32-C559-947C-373311B09341</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B31B685E-24B8-014B-3A84-BE0CDBD0CF56" schemaObject="E32ABB93-9EC8-456C-4722-453D0D9AF438" name="GS_ALERTA_PK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM95111</sourceObjSchema>
+<sourceObjName>SYS_C005177080</sourceObjName>
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<importedID>F9302285-7C94-5962-A6E3-2DDAFC8A986E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C56A9EF2-FF44-C677-1056-821F01FED0D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CF0BCA5-AE43-19F8-352F-639CED902387" name="GS_ALERTA_GS_ABRIGO_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A466AC1E-DF72-8ADB-D02A-4A535EA7DE8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

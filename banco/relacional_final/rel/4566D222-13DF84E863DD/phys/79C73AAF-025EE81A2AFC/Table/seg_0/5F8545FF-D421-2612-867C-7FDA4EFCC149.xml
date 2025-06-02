@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="GS_ALERTA" directorySegmentName="seg_0" id="5F8545FF-D421-2612-867C-7FDA4EFCC149">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<schemaObject>E32ABB93-9EC8-456C-4722-453D0D9AF438</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>27C23924-E242-9E23-F2E6-D492283DC2E7</segment>
+<tableSpace>7A603338-7A87-C9DC-F071-F27A940CA40C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATA_ALERTA" id="0BB02884-EB3C-E6C7-AF6E-472B4E725137">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENSAGEM" id="90C8E077-9380-52AD-EF55-8F823DC907BA">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_ALERTA" id="923663B0-9F06-50AA-F754-4EED33A1B23D">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GS_ABRIGO_ID" id="A466AC1E-DF72-8ADB-D02A-4A535EA7DE8B">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ALERTA" id="C56A9EF2-FF44-C677-1056-821F01FED0D4">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="GS_ALERTA_GS_ABRIGO_FK" id="0CF0BCA5-AE43-19F8-352F-639CED902387">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GS_ALERTA_PK" id="B31B685E-24B8-014B-3A84-BE0CDBD0CF56">
+<createdBy>lucas</createdBy>
+<createdTime>2025-06-01 23:47:00 UTC</createdTime>
+<ownerDesignName>relacional_final</ownerDesignName>
+<schemaObject>E32ABB93-9EC8-456C-4722-453D0D9AF438</schemaObject>
+<segment>FE8C239F-215B-E234-7BFB-FB4662FDBD40</segment>
+<tableSpace>7A603338-7A87-C9DC-F071-F27A940CA40C</tableSpace>
+<indexSegment>FE8C239F-215B-E234-7BFB-FB4662FDBD40</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

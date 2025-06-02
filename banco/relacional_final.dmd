@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="relacional_final" id="16E40D79-90F2-7269-7CC8-9955DAFAEF56" version="3.5">
+<createdBy>lucas</createdBy>
+<createdTime>2025-05-29 21:19:18 UTC</createdTime>
+<ownerDesignName>relacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>16E40D79-90F2-7269-7CC8-9955DAFAEF56</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="05BFFB01-0275-DD4D-8659-E2831A458197">
+<designStoragePath>C:\criacao_tabelas</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="458BD316-067C-F1A6-EBF0-AD6D997626C4">
+<designStoragePath>C:\Users\lucas\Downloads\GS - Abrigo\banco</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
